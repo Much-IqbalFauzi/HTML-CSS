@@ -1,0 +1,131 @@
+<html>
+<head>
+	<style>
+		*{
+			margin: 2px;
+			padding: 5px;
+		}
+		body{
+			background: #ccd9d5;
+		}
+		h3{
+			background: #417067;
+			color: white;
+		}
+		#b1{
+			border: 5px dotted red;
+		}
+		#b2{
+			border: 5px dashed red;
+		}
+		#b3{
+			border: 5px solid red;
+		}
+		#b4{
+			border: 5px double red;
+		}
+		#b5{
+			border: 5px groove red;
+		}
+		#b6{
+			border: 5px ridge red;
+		}
+		#b7{
+			border: 5px inset red;
+		}
+		#b8{
+			border: 5px outset red;
+		}
+		#b9{
+			/*border: 5px hidden red;*/
+			border: hidden;
+		}
+
+		/*border: border-width border-style border-color*/
+		/*ex:*/
+			/*border: 5px dashed red;*/
+			/*OR
+			border-width: 4px;
+			border-style: dashed;
+			border-color: red;*/
+		#b10{
+			border-top: 5px dashed yellow;
+		}
+		#b11{
+			border-right: 5px solid yellow;
+		}
+		#b12{
+			border-bottom: 5px solid yellow;
+		}
+		#b13{
+			border-left: 5px solid yellow;
+		}
+
+		/*border-position: border-width border-style border-color;*/
+		#b14{
+			border: 8px solid cyan;
+		}
+		#b14-1{
+			border: solid cyan;
+			border-width: 2px 5px 10px 20px;
+			/*border-width: top-size right-size bottom-size left-size;*/
+		}
+		#b15{
+			border: thick solid cyan;
+		}
+		#b15-1{
+			border: thin solid cyan;
+		}
+		#b15-2{
+			border: medium solid cyan;
+		}
+		/*border-width: value-top value-right value-bottom value-left;*/
+		/*or*/
+		/*border: border-width(pre-defined / spesific-size) border-style border-color;*/
+
+		#b16{
+			border-radius: 50%;
+		}
+		#b16-1{
+			border-radius: 20px;
+		}
+		.b16{
+			/*square*/
+			height: 200px;
+			width: 200px;
+			background: red;
+			border-radius: 20%;
+		}
+
+		/*border-radius: persentage;
+		or
+		border-radius: spesific-size;*/
+	</style>
+</head>
+<body>
+	<h3 id="b1">border 1 </h3>
+	<h3 id="b2">border 2 dashed</h3>
+	<h3 id="b3">border 3 solid</h3>
+	<h3 id="b4">border 4 double</h3>
+	<h3 id="b5">border 5 groove</h3>
+	<h3 id="b6">border 6 ridge</h3>
+	<h3 id="b7">border 7 inset</h3>
+	<h3 id="b8">border 8 outset</h3>
+	<h3 id="b9">border 9 none</h3>
+	<br><br>
+	<h3 id="b10">border top</h3>
+	<h3 id="b11">border right</h3>
+	<h3 id="b12">border bottom</h3>
+	<h3 id="b13">border left</h3>
+	<br><br>
+	<h3 id="b14">border width spesific size</h3>
+	<h3 id="b14-1">border width spesific size</h3>
+	<h3 id="b15">border width pre-defined values thick</h3>
+	<h3 id="b15-1">border width pre-defined values thin</h3>
+	<h3 id="b15-2">border width pre-defined values mediun</h3>
+	<br><br>
+	<h3 id="b16">border radius-1</h3>
+	<h3 id="b16-1">border radius-2</h3>
+	<div class="b16">border radius</div>
+</body>
+</html>
