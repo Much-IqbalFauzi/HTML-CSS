@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<style>
+			body{
+				margin: 20px;
+
+				/*margin-top: 20px;*/
+				/* margin left, righ, botto, >> default*/
+				
+				/*margin-bottom: 20px;*/
+				/*margin top, right, left >> default*/
+
+				/*margin-left: 50px;*/
+				/*margin top, right, bottom >> default*/
+
+				/*margin-right: 100px;*/
+				/*margin top, left, bottom >> default*/
+
+				/*margin: 20px 100px;*/
+				/*margin top & bottom >> 20px, left & right >> 100px*/
+
+				/*margin: 100px 30px 50px 40px;*/
+				/*margin: margin-top margin-right margin-bottom margin-left;*/
+			}
+			.box{
+				width: 80%;
+				height: 100%;
+			}
+			#one{
+				background: grey;
+			}
+			#two{
+				margin: inherit;
+				background: black;
+			}
+			#three{
+				/*auto center, top & bottom 0px*/
+				/*margin: auto;*/
+
+				/*margin left & right> center, top & bottom > 20px*/
+				margin: 20px auto;
+				background: cyan;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box" id="one"></div>
+		<div class="box" id="two"></div>
+		<div class="box" id="three"></div>
+	</body>
+</html>
